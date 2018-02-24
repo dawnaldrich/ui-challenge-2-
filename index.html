@@ -9,19 +9,22 @@
  
 <div class="container">
     <form uiForm class="form">
+
         <p> 
         <label>text input <br>
-        <input type="text" name = "inputValidate" placeholder="placeholder text" >
+        <input type="text"  id="input-validate" name = "inputValidate" placeholder="placeholder text">
         </label>
         </p>
+
         <p> 
-        <label>text input w/ validation error <br>
-        <input type="text" name = "inputError" placeholder="placeholder text" >
+        <label>text input <br>
+        <input type="text"  id="input-required" name = "inputValidate" placeholder="placeholder text" >
         </label>
         </p>
+       
         <p>
         <label>select box <br>
-        <select name="selectBox" >
+        <select name="selectBox" id="select">
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
@@ -31,22 +34,19 @@
         </p>
         <p>
         <label>checkbox</label> <br>
-
-      
-
         <input id="input-pri" type="checkbox">
         <label class="labels" for="input-pri">
-          <div></div>
         </label>
         </p>
         <p>
-        <label>radio <br>
-        <input type = "radio" name="radio">
+        <label>radio </label><br>
+        <input id="input-radio" type = "radio" name="radio">
+        <label class="labels" for="input-radio">
         </label>
         </p>
         <p><br>
-        <input type = "submit" name="submit">
-        </label>
+        <input type = "submit" name="submit" value="submit" >
+        
         </p>
     </form>
 </div>

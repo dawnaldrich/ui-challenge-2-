@@ -1,6 +1,7 @@
 body{
     width:100%;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14pt;
 }
 .container{
     width:400px;
@@ -17,60 +18,77 @@ p{
     padding: 10px;
 }
 
-/* .ckBox{
-  background-image: url('form-elements-sprite.png');
-  background-repeat: no-repeat;
-  height:40px;
-  background-position: -25px;
-  background-position: -25px;
-} */
-
-#input-pri{
-    display: none;
-  }
 
 
-  .labels{
-    width: 50px;
-    height: 50px;
-    transition: 350ms;
-    position: relative;
-  }
-  * {
-    width: 100%;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-  }
+#select{
+  height:35px;
+  width:250px;
+  padding:5px;
+}
   
   #input-pri{
+    display: none;
+  }
+  #input-radio{
     display: none;
   }
   
   form .labels {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
-    border-radius: 15px;
     display: block;
     transition: 350ms;
-    position: relative;
+    position: realtive;
   }
   
-
   
   input[type="checkbox"]:not(:checked) + label {
-    background-image:url('test.png');
-    
+    background-image: url('form-elements-sprite-50pxH.png');
+    background-position-x:0px;
+
   }
   
   #input-pri:checked + label {
-    background-image:url('test.png');
-    
+    background-image: url('form-elements-sprite-50pxH.png');
+     background-position-x:-55px;
+  }
+
+  input[type="radio"]:not(:checked) + label {
+    background-image: url('form-elements-sprite-50pxH.png');
+    background-position-x:165px;
+
   }
   
-  #input-pri:checked + label div {
-    background-image:url('test.png');
-    
+  #input-radio:checked + label {
+    background-image: url('form-elements-sprite-50pxH.png');
+     background-position-x:110px;
   }
+
+
+  input[type=submit] {
+    background-color: #CCC;
+    border: 0;
+    width: 75px;
+    height: 35px;
+    font-size:14pt;
+    
+   
+ }
+
+ #input-validate{
+  height:25px;
+  width:250px;
+  padding:5px;
+}
+
+#input-required{
+  height:25px;
+  width:250px;
+  padding:5px;
+  border:1px solid red;
+}
+
+
+  
+ 
+  
