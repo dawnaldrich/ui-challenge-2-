@@ -1,0 +1,18 @@
+body{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    width:400px;
+    margin:0 auto;
+    border:solid;
+}
+form{
+    width:400px;
+    margin:0 auto;
+    border:solid;
+
+}
+p{
+    padding: 10px;
+}
