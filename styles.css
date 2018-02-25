@@ -6,12 +6,10 @@ body{
 .container{
     width:400px;
     margin:0 auto;
-    border:solid;
 }
 form{
     width:400px;
     margin:0 auto;
-    border:solid;
 
 }
 p{
@@ -37,8 +35,8 @@ p{
     width: 50px;
     height: 50px;
     display: block;
-    transition: 350ms;
-    position: realtive;
+    transition: 0ms;
+    position: relative;
   }
   
   
@@ -61,7 +59,7 @@ p{
   
   #input-radio:checked + label {
     background-image: url('form-elements-sprite-50pxH.png');
-     background-position-x:110px;
+     background-position-x:108px;
   }
 
 
@@ -71,9 +69,17 @@ p{
     width: 75px;
     height: 35px;
     font-size:14pt;
-    
-   
+    color:#333;
  }
+
+ input[type=submit]:hover {
+  background-color: #333;
+  border: 0;
+  width: 75px;
+  height: 35px;
+  font-size:14pt;
+  color:#fff;
+}
 
  #input-validate{
   height:25px;
@@ -86,6 +92,10 @@ p{
   width:250px;
   padding:5px;
   border:1px solid red;
+}
+p{
+  padding-top:0px;
+
 }
 
 
